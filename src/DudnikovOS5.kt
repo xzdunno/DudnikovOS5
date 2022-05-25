@@ -60,9 +60,4 @@ internal class Producer : Thread() {
             }
         }
     }
-    fun count(){
-        while(beg<=end){
-            println(beg++)
-        }
-    }
 }
